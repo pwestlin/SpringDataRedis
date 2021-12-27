@@ -8,5 +8,5 @@ A "news application" that sends (publishes) news with category and an headline a
 2. Run with Docker Compose: ```docker-compose -f src/main/docker/docker-compose.yml up```
 
 ### With Docker and Gradle
-4. Start a Redis Docker-container: ```docker run --name SpringDataRedis --rm -p 6379:6379 -d redis```
+4. Start a Redis Docker container: ```docker run --name SpringDataRedis --rm -p 6379:6379 -d redis```
 5. Execute application: ```./gradlew bootrun```
