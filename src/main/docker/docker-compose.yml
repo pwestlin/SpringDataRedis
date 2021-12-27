@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  application:
+    image: "pwestlin/springdataredis"
+    environment:
+      - "spring_redis_host=redis"
+  redis:
+    image: "redis"
+    ports:
+      - "6379:6379"
